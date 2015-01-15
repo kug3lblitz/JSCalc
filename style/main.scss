@@ -1,2 +1,49 @@
 @import 'bourbon/bourbon';
+$visual-grid: true;
+$visual-grid-color: #03ff0b;
+$visual-grid-index: front;
+$visual-grid-opacity: .4;
 @import 'neat/neat';
+
+/* colors */
+
+$primary-color: #72abff;
+
+/* media queries */
+
+$border-box-sizing: true !default;
+
+.calculator {
+  @include outer-container;
+  vertical-align: middle;
+}
+
+.calc-body {
+  @include span-columns(4);
+  background-color: blue;
+  position: relative;
+}
+
+.top {
+
+}
+
+.clear {
+
+}
+
+.screen {
+
+}
+
+.keys {
+
+}
+
+.operator {
+
+}
+
+.equal {
+
+}
