@@ -1,8 +1,8 @@
 @import 'bourbon/bourbon';
-$visual-grid: true;
-$visual-grid-color: #03ff0b;
-$visual-grid-index: front;
-$visual-grid-opacity: .4;
+/* \$visual-grid: true;
+\$visual-grid-color: #03ff0b;
+\$visual-grid-index: front;
+\$visual-grid-opacity: .2; */
 @import 'neat/neat';
 
 /* colors */
@@ -11,39 +11,36 @@ $primary-color: #72abff;
 
 /* media queries */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 $border-box-sizing: true !default;
 
 .calculator {
   @include outer-container;
-  vertical-align: middle;
 }
 
 .calc-body {
-  @include span-columns(4);
+  @include span-columns(6);
+  @include shift(4);
   background-color: blue;
-  position: relative;
+  margin-top: 15%;
 }
 
-.top {
-
+/* .1_row {
+  @include span-columns(3);
 }
 
-.clear {
-
+.2_row {
+  @include span-columns(3);
 }
 
-.screen {
-
+.3_row {
+  @include span-columns(3);
 }
 
-.keys {
-
-}
-
-.operator {
-
-}
-
-.equal {
-
-}
+.4_row {
+  @include span-columns(3);
+} */
