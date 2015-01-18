@@ -7,11 +7,11 @@ function Clear() {
   Second=0.0;
   Oper=null;
   Overall=0.0;
-  //document.getElementById("output").InnerHTML = "0.0";
+  document.getElementById("output").InnerHTML = "0.0";
 }
 
-function Calculate(Overall) {
-	Overall = First;
+function Calculate() {
+	
 	if (Oper === "add") {
 		Overall = First + Second;
 	} else if (Oper === "subtract") {
@@ -23,6 +23,8 @@ function Calculate(Overall) {
 	}
 	return Overall;
 }
+
+
 
 // Shutup jshint
 Calculate(10);
