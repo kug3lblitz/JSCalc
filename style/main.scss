@@ -1,8 +1,8 @@
 @import 'bourbon/bourbon';
-$visual-grid: true;
-$visual-grid-color: #03ff0b;
-$visual-grid-index: front;
-$visual-grid-opacity: .2;
+/* \$visual-grid: true;
+\$visual-grid-color: #03ff0b;
+\$visual-grid-index: front;
+\$visual-grid-opacity: .1; */
 @import 'neat/neat';
 
 /* colors */
@@ -47,6 +47,7 @@ $border-box-sizing: true !default;
   vertical-align: middle;
 /*   position: relative; */
   background-color: $body-color;
+  max-width: 350px;
 }
 
 button {
