@@ -54,9 +54,28 @@ button {
 }
 
 #row1, #row3, #row4, #row5, #extra-oper {
+
   @include shift (1);
- }
+ 
+}
 
 #row6 {
+
   @include shift (2);
- }
+ 
+}
+
+#d {
+
+  @include shift (1);
+  background-color: #bcce94;
+  max-width: 350px;
+  height: 35px;
+	
+}
+
+.display input {
+  position: relative;
+}
+
+
