@@ -29,7 +29,7 @@ $border-box-sizing: true !default;
 
 .calc {
   @include outer-container;
-  @include shift (3);
+  @include shift (4);
   margin-top: 10%;
 }
 
@@ -39,13 +39,6 @@ $border-box-sizing: true !default;
   height: auto;
 }
 
-.top {
-  /* position: relative; */
-}
-
-.output {
-  /* position: relative; */
-}
 
 .keys {
   background-color: $body-color;
@@ -59,6 +52,7 @@ button {
   padding: 15px;
   color: $button-textcolor;
 }
+
 
 
 

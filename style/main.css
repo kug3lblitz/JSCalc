@@ -24,7 +24,7 @@ html {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  margin-left: 25.58941%;
+  margin-left: 34.11922%;
   margin-top: 10%; }
   .calc::after {
     clear: both;
@@ -35,12 +35,6 @@ html {
   margin-top: 15%;
   width: auto;
   height: auto; }
-
-.top {
-  /* position: relative; */ }
-
-.output {
-  /* position: relative; */ }
 
 .keys {
   background-color: #cdcdcd;
