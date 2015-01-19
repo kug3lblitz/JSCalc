@@ -53,6 +53,10 @@ button {
   color: $button-textcolor;
 }
 
+#row1, #row3, #row4, #row5, #extra-oper {
+  @include shift (1);
+ }
 
-
-
+#row6 {
+  @include shift (2);
+ }
