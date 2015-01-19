@@ -37,7 +37,7 @@ html {
   height: auto; }
 
 .keys {
-  background-color: #cdcdcd;
+  background-color: black;
   max-width: 350px;
   vertical-align: middle; }
 
@@ -47,19 +47,16 @@ button {
   padding: 15px;
   color: white; }
 
-#row1, #row3, #row4, #row5, #extra-oper {
+.button-row clearfix {
   margin-left: 8.5298%; }
 
-#row6 {
-  margin-left: 17.05961%; }
-
-#d {
-  margin-left: 8.5298%;
+.d {
   background-color: #bcce94;
-  max-width: 350px;
-  height: 35px; }
+  width: 350px;
+  height: 50px; }
 
 .display input {
-  position: relative; }
+  background-color: #bcce94;
+  max-width: 350px; }
 
 /*# sourceMappingURL=main.css.map */

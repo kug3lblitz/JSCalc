@@ -10,7 +10,7 @@ $visual-grid-opacity: .1; */
 $secondary-color: #72abff;
 $button-color: gray;
 $button-textcolor: white;
-$body-color: #cdcdcd;
+$body-color: black;
 
 /*fonts*/
 $main-font:  'Helvetica', 'sans-serif';
@@ -53,29 +53,24 @@ button {
   color: $button-textcolor;
 }
 
-#row1, #row3, #row4, #row5, #extra-oper {
+.button-row clearfix {
 
   @include shift (1);
  
 }
 
-#row6 {
+.d {
 
-  @include shift (2);
- 
-}
-
-#d {
-
-  @include shift (1);
   background-color: #bcce94;
-  max-width: 350px;
-  height: 35px;
+  width: 350px;
+  height: 50px;
 	
 }
 
 .display input {
-  position: relative;
+  background-color: #bcce94;
+  max-width: 350px;
 }
+
 
 
