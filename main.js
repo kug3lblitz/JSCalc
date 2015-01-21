@@ -37,7 +37,6 @@ function clearPressed(event){
   document.getElementById('total').textContent = '';
 }
 
-
 function numberPressed(Number){
   var Overall = Number(document.getElementById('display').textContent);
 
@@ -57,6 +56,10 @@ function numberPressed(Number){
   document.getElementById('display').textContent = Overall * 1;
 }
 
+var multiply = document.getElementById('multiply');
+var divide = document.getElementById('divide'); 
+var subtract = document.getElementById('subtract');
+var add = document.getElementById('add');
 
 function ninePressed(event) {
   event.preventDefault();
@@ -124,3 +127,4 @@ document.getElementById('divide').addEventListener('click', dividePressed);
 document.getElementById('multiply').addEventListener('click', multiplyPressed);
 document.getElementById('clear').addEventListener('click', clearPressed);
 document.getElementById('equals').addEventListener('click', equalPressed);
+//document.getElementById('total').addEventListener('change', 
