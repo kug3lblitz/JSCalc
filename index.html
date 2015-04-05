@@ -2,70 +2,45 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Calculator</title>
-  <link rel="stylesheet" href="./style/main.css">
+  <title>MAH CALK8R</title>
+  <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-  <div class="outer-container">
 
-    <div class="calc">
-	 <div class="calculator">
-		<div class="display">
-			<input type="text" class="d" maxlength="50"><span id="total">0</span>
-		</div>
-	</div>
+  <div class="calculator">
 
-      <div class="keys">
-	      <div class="button-row clearfix" id="row1">
-		      <button id="memclr" value="MRC">MRC</button>
-		      <button id="memsub" value="M-">M-</button>
-		      <button id="memplus" value="M+">M+</button>
-	      </div>
-	      <div class="button-row clearfix" id="row2">
-		      <button id="clear" value="C/E">C/E</button>
-		      <button id="backspace" value="&larr;">&larr;</button>
-		      <button id="posNeg" value="-/+">-/+</button>
-		      <button id="divide" class="operator" value="/">&divide;</button>
-	      </div>
-	      <div class="button-row clearfix" id="row3">
-		      <button id="seven" class="integer" value="7">7</button>
-		      <button id="eight" class="integer" value="8">8</button>
-		      <button id="nine" class="integer" value="9">9</button>
-		      <button id="multiply" class="operator" value="*">&times;</button>
-	      </div>
-	      <div class="button-row clearfix" id="row4">
-		      <button id="four" class="integer" value="4">4</button>
-		      <button id="five" class="integer" value="5">5</button>
-		      <button id="six" class="integer" value="6">6</button>
-		      <button id="subtract" class="operator" value="-">-</button>
-	      </div>
-	      <div class="button-row clearfix" id="row5">
-		      <button id="three" class="integer" value="3">3</button>
-		      <button id="two" class="integer" value="2">2</button>
-		      <button id="one" class="integer" value="1">1</button>
-		      <button id="add" class="operator" value="+">+</button>
-	      </div>
-	      <div class="button-row clearfix" id="row6">
-		      <button id="zero" class="integer" value="0">0</button>
-		      <button id="decimal" value=".">.</button>
-		      <button id="equals" value="=">=</button>
-	      </div>
-	      <div id="extra-oper" class="button-row clearfix">
-		      <button id="c-powerof" class="calc-op" value="^">y<span class="exponent">x</span></button>
-		      <button id="c-denom" value="1/x">x<span class="denominator">1/x</span></button>
-		      <button id="c-square" value="x2">x<span class="exponent">2</span></button>
-		      <button id="c-sqrt" value="&radic;">&radic;</button>
-	      </div>
+    <div class="keys">
+      <div class="column1">
+        <button class="button" id="clear">CA</button>
+        <button class="button" id="7">7</button>
+        <button class="button" id="4">4</button>
+        <button class="button" id="1">1</button>
+        <button class="button" id="0">0</button>
       </div>
+      <div class="rightrows">
+        <span id="display">0</span>
+        <div class="column2">
+          <button class="button" id="8">8</button>
+          <button class="button" id="5">5</button>
+          <button class="button" id="2">2</button>
+          <button class="button" id="decimal">.</button>
+        </div>
+        <div class="column3">
+          <button class="button" id="9">9</button>
+          <button class="button" id="6">6</button>
+          <button class="button" id="3">3</button>
+          <button class="button" id="equal">=</button>
+        </div>
+        <div class="column4">
+          <button class="button" id="add">+</button>
+          <button class="button" id="subtract">-</button>
+          <button class="button" id="divide">÷</button>
+          <button class="button" id="multiply">x</button>
+
+        </div>
       </div>
-      </div>
-       <script type="text/javascript" src="main.js"></script>
- </body>
-     
+    </div>
+  </div>
+  <script src="scripts/main.js"></script>
+</body>
 </html>
-
-
-
-
-
-

@@ -1,0 +1,89 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+body {
+  font-family: "Courier", sans-serif; }
+
+.calculator {
+  width: 100%; }
+
+.button {
+  width: 100%;
+  height: 80px;
+  margin-bottom: 15px;
+  background-color: #f2725c;
+  font-family: "Courier", sans-serif;
+  font-size: 25px; }
+
+.keys {
+  background-color: #fdeead;
+  height: 500px;
+  width: 30%;
+  padding: 20px 20px;
+  margin-top: 50px;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+
+  .keys::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+  .keys .column1 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+    }
+
+    .keys .column1:last-child {
+      margin-right: 0; }
+
+  .keys .rightrows {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%; }
+
+    .keys .rightrows:last-child {
+      margin-right: 0; }
+
+    .keys .rightrows #display {
+      float: left;
+      display: block;
+      margin-right: 3.16844%;
+      width: 100%; }
+
+      .keys .rightrows #display:last-child {
+        margin-right: 0; }
+    
+    .keys .rightrows .column2,
+    .keys .rightrows .column3,
+    .keys .rightrows .column4 {
+      
+        float: left;
+      display: block;
+      margin-right: 3.16844%;
+      width: 31.22104%; }
+      .keys .rightrows .column2:last-child,
+      .keys .rightrows .column3:last-child,
+      .keys .rightrows .column4:last-child {
+        margin-right: 0; }
+
+#display {
+  font-size: 70px;
+  height: 80px;
+  width: 100%;
+  background-color: #99b78f;
+  text-align: right;
+  padding-right: 10px;
+  margin-bottom: 15px;
+  overflow: hidden; }
